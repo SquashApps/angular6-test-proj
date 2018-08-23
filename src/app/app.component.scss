@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    table {
+        width: 50%;
+        .green{
+            color: green;
+        }
+        .red{ 
+            color: red;
+        }
+        .remove{
+            cursor: pointer;
+            color: #F03434;
+        }
+      }
+}
